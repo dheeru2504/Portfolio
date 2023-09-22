@@ -48,7 +48,7 @@ const data = [
     image: IMG7,
     title: "E Commerce ",
     github: "https://github.com/Dheeru-k/E-commerce",
-    demo: "",
+    demo: "https://front-dv26.onrender.com",
   },
 ];
 

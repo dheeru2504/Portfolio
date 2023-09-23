@@ -1,9 +1,5 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/Me-about.png";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
 const about = () => {
   return (
     <section id="about">
@@ -23,9 +19,9 @@ const about = () => {
             Technology, Design and Manufacturing
           </h3>
           <p style={{ marginTop: "1.5rem", marginBottom: "1.5rem" }}>
-            I am a third year B.Tech student, Interested in web delopment and
-            slightly inclined towards ethical hacking. I like travelling and
-            exploring new places, listening music. I am a passionate Driver too.
+            I&#39;m Dheeraj Kumar, final year B.Tech student, a passionate web developer with a keen eye for detail and a knack for crafting exceptional online experiences.
+            With a solid background in both front-end and back-end development, I thrive on turning creative ideas into functional, user-friendly websites.
+
           </p>
           <div className="text-center">
             <a href="#contact" className="btn btn-primary">

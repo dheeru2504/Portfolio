@@ -2,6 +2,9 @@ import React from "react";
 import "./Exp.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 
+
+
+
 const exp = () => {
   return (
     <section id="experience">
@@ -9,7 +12,8 @@ const exp = () => {
       <h2>Skills I Have</h2>
 
       <div className="container experience_container">
-        <div className="experience_frontend">
+
+        {/* <div className="experience_frontend">
           <h3>Web Development</h3>
           <div className="experience_content">
             <article className="experience_details">
@@ -90,9 +94,9 @@ const exp = () => {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
 
-        <div className="experience_backend">
+        {/* <div className="experience_backend">
           <h3>Problem Solving </h3>
           <div className="experience_content">
             <article className="experience_details">
@@ -126,7 +130,7 @@ const exp = () => {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

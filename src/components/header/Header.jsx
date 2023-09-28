@@ -5,7 +5,7 @@ import ME from "../../assets/Mee-1.png";
 import Header_socials from "./Header_socials";
 import TextTransition, { presets } from 'react-text-transition';
 
-const TEXTS = ['Dheeraj Kumar', 'Web Developer', 'UI/UX Designer'];
+const TEXTS = ['Web Developer', 'UI/UX Designer', 'Programmer'];
 
 const Header = () => {
 
@@ -23,9 +23,9 @@ const Header = () => {
     <header>
       <div className="container container_header">
         <h5>Hello I'm</h5>
-        {/* <h1>Dheeraj Kumar</h1> */}
+        <h1>Dheeraj Kumar</h1>
         <TextTransition className="moving-text" springConfig={presets.wobbly} direction="down">{TEXTS[index % TEXTS.length]}</TextTransition>
-        <h5 className="text-light">Web Developer</h5>
+        {/* <h5 className="text-light">Web Developer</h5> */}
         <CTA />
         <Header_socials />
         <div className="me">

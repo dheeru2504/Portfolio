@@ -14,7 +14,7 @@ const data = [
     id: 1,
     image: IMG7,
     title: "E Commerce ",
-    github: "https://github.com/Dheeru-k/E-commerce",
+    github: "https://github.com/dheeru2504/E-commerce",
     demo: "https://front-dv26.onrender.com",
   },
   {
@@ -35,21 +35,15 @@ const data = [
     id: 4,
     image: IMG3,
     title: "Keep Notes",
-    github: "https://github.com/Dheeru-k/Kepper-App",
-    demo: "https://keepnotees.netlify.app/",
+    github: "https://github.com/dheeru2504/KeepNotes",
+    demo: "https://keep-notes-six-beta.vercel.app/",
   },
-  {
-    id: 5,
-    image: IMG4,
-    title: "To Do List",
-    github: "https://github.com/Dheeru-k/todoList",
-    demo: "",
-  },
+
   {
     id: 6,
     image: IMG5,
     title: "Share Your Secrets",
-    github: "https://github.com/Dheeru-k/Secrets-1",
+    github: "https://github.com/dheeru2504/secrets",
     demo: "",
   },
 
